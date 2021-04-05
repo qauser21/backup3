@@ -23041,7 +23041,7 @@ generators:
     methods: null
     denyRoles: null
     allowRoles: null
-    pathPatterns: null
+    pathPatterns: "GET:/api/v1/bank-account\nPOST:/api/v1/bank-account\nPUT:/api/v1/bank-account"
     resourceSamples: "User-Create"
     queryParams: null
     bodyProperties: "id,name"
