@@ -16176,7 +16176,16 @@ generators:
   severity: "Medium"
   database: null
   inactive: false
-  matches: []
+  matches:
+  - name: ""
+    value: null
+    methods: ""
+    denyRoles: ""
+    allowRoles: ""
+    pathPatterns: "GET:/api/v1/bank-account\nPOST:/api/v1/bank-account\nPUT:/api/v1/bank-account"
+    resourceSamples: ""
+    queryParams: ""
+    bodyProperties: ""
   authors: ""
   abacResources: null
   category: "XSS_Injection"
