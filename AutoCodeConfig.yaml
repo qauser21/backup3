@@ -16932,8 +16932,17 @@ generators:
   - "NON-INTRUSIVE"
   severity: "Medium"
   database: null
-  inactive: true
-  matches: []
+  inactive: false
+  matches:
+  - name: ""
+    value: null
+    methods: ""
+    denyRoles: ""
+    allowRoles: ""
+    pathPatterns: ""
+    resourceSamples: ""
+    queryParams: ""
+    bodyProperties: ""
   authors: ""
   abacResources: null
   category: "Windows_Command_Injection_Filter"
