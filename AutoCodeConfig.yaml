@@ -16939,7 +16939,7 @@ generators:
     methods: ""
     denyRoles: ""
     allowRoles: ""
-    pathPatterns: ""
+    pathPatterns: "GET:/api/v1/bank-account\nPOST:/api/v1/bank-account\nPUT:/api/v1/bank-account"
     resourceSamples: ""
     queryParams: ""
     bodyProperties: ""
